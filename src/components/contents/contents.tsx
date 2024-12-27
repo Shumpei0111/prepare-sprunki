@@ -15,7 +15,7 @@ export interface PreparationType {
   preparation: PreparationItemType[];
 }
 
-export const Settings = () => {
+export const Contents = () => {
   const morningPreparation = [
     {
       label: "あさごはん",
