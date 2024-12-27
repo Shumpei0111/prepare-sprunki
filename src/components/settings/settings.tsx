@@ -30,7 +30,12 @@ export const Settings = () => {
     {
       label: "はみがき",
       done: false,
-      sprunki: sprunkis.Clukr,
+      sprunki: sprunkis.Cluker,
+    },
+    {
+      label: "くつしたをはく",
+      done: false,
+      sprunki: sprunkis.Vineria,
     },
     {
       label: "うわぎをきる",

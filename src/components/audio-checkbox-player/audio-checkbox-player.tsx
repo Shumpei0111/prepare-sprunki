@@ -19,6 +19,7 @@ export const AudioCheckboxPlayer = ({
     Object.entries(preparation.preparation).forEach(([name, data]) => {
       const audio = new Audio(data.sprunki.music);
       audio.loop = true;
+      audio.volume = 0.5;
       audioRefs.current[name] = audio;
     });
 
