@@ -7,7 +7,8 @@ export const Providers = ({ children }: { children: ReactNode }) => {
     <ThemeProvider
       attribute={"class"}
       defaultTheme="dark"
-      enableSystem
+      enableSystem={false}
+      forcedTheme="dark"
       disableTransitionOnChange
     >
       <JotaiProvider>{children}</JotaiProvider>
