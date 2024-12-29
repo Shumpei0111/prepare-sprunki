@@ -16,6 +16,8 @@ export const AudioCheckboxPlayer = ({
   const audioRefs = useRef<Record<string, HTMLAudioElement | null>>({});
 
   useEffect(() => {
+    setPlayingTracks([]);
+
     Object.entries(preparation.preparation).forEach(([name, data]) => {
       const audio = new Audio(data.sprunki.music);
       audio.loop = true;
