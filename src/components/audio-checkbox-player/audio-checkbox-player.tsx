@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { type PreparationType } from "@/components/contents/contents";
+import { type PreparationType } from "../contents/contents.atom";
 import Image from "next/image";
 import classNames from "classnames";
 

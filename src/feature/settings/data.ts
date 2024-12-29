@@ -1,3 +1,5 @@
+import { type PreparationItemType } from "@/components/contents/contents.atom";
+
 type StyleType = "beats" | "effects" | "melodies" | "vocals";
 
 interface SprunkiType {
@@ -108,3 +110,69 @@ export const sprunkis = {
     type: "vocals",
   },
 } satisfies Record<string, SprunkiType>;
+
+export const morningPreparation = [
+  {
+    label: "あさごはん",
+    done: false,
+    sprunki: sprunkis.Oren,
+  },
+  {
+    label: "おきがえ",
+    done: false,
+    sprunki: sprunkis.Raddy,
+  },
+  {
+    label: "はみがき",
+    done: false,
+    sprunki: sprunkis.Cluker,
+  },
+  {
+    label: "くつしたをはく",
+    done: false,
+    sprunki: sprunkis.Vineria,
+  },
+  {
+    label: "うわぎをきる",
+    done: false,
+    sprunki: sprunkis.FunBot,
+  },
+] satisfies PreparationItemType[];
+
+export const bathTimePreparation = [
+  {
+    label: "といれにいく",
+    done: false,
+    sprunki: sprunkis.Brud,
+  },
+  {
+    label: "ふくをぬぐ",
+    done: false,
+    sprunki: sprunkis.Gray,
+  },
+  {
+    label: "おふろにはいる",
+    done: false,
+    sprunki: sprunkis.Garnold,
+  },
+  {
+    label: "からだをふく",
+    done: false,
+    sprunki: sprunkis.Owakcx,
+  },
+  {
+    label: "ほしつする",
+    done: false,
+    sprunki: sprunkis.Sky,
+  },
+  {
+    label: "ふくをきる",
+    done: false,
+    sprunki: sprunkis.MrSun,
+  },
+  {
+    label: "かみをかわかす",
+    done: false,
+    sprunki: sprunkis.Durple,
+  },
+] satisfies PreparationItemType[];
